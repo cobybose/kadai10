@@ -1,0 +1,187 @@
+body {
+    font-family: 'Hiragino Sans','ヒラギノ角ゴシック','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic''ＭＳ ゴシック','Helvetica Neue','Helvetica','Arial',sans-serif;
+    text-align: center;
+    background-color:bisque;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+/*    background-color: #efefef;*/
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    width: 70%;
+}
+
+li {
+    font-weight: bold;
+    list-style-type: none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display: table-cell;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+#input{
+    height: 450px;
+    width: 300px;
+    margin: auto;
+}
+#inp_title{
+    padding-top: 100%;
+}
+
+#output {
+    height: 85%;
+    width: 300px;
+    margin-bottom: 2%;
+    text-align: left;
+    overflow: auto;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#output2 {
+    height: 85%;
+    width: 100%;
+    margin-bottom: 2%;
+    text-align: left;
+    overflow: auto;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+#time {
+    font-size: 10px;
+}
+
+#map {
+    height: 450px;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#map2 {
+    height: 100%;
+    width: 65%;
+    margin-right: 5%;
+/*    margin: auto;*/
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 15px;
+    text-shadow: #FFF 1px 1px 0;
+}
+h3{
+    height: 6%;
+    max-height: 25px;
+/*
+    width: 100%;
+    margin: auto;
+*/
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-radius: 10px;
+    background-color: red;
+}
+h4 {
+    color:yellowgreen;
+    font-size: 15px;
+    text-shadow: #FFF 1px 1px 0;
+}
+#user_id{
+    background-color: red;
+    height: 6%;
+    width: 300px;
+    margin: auto;
+}
+
+#user_id2{
+    background-color: red;
+}
+#text{
+    width: 78%;
+}
+#text2,#username{
+    border-radius: 10px;
+    width: 78%;
+    font-size: 15px;
+}
+#send2{
+    width: 18%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#wrap-send{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#wrap{
+    height: 450px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+#wrap1{
+    height: 450px;
+    width: 300px;
+    margin: auto;
+}
+#box{
+    width: 30%;
+    height: 100%;
+}
+
+********************************/
+.left_balloon {
+    position: relative;
+    background: #f1f0f0;
+    border: 0px solid #777;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 400px;
+    clear: both;
+}
+
+/*******************************
+* 右からの吹き出し
+********************************/
+.right_balloon {
+    color: #fff;
+    position: relative;
+    background: #0084ff;
+    border: 0px solid #777;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 400px;
+    clear: both;
+    float: right;
+}
